@@ -1,10 +1,14 @@
-type LayoutProps = {
-};
+import { Box } from "@chakra-ui/react";
+import Header from "./Header";
 
-export const Layout = ( ) => {
+type LayoutProps = {};
 
+const Layout = () => {
   return (
-    <>
-    </>
+    <Box>
+      <Header></Header>
+    </Box>
   );
 };
+
+export default Layout;

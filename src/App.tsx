@@ -1,16 +1,16 @@
-//import { useState } from 'react'
-import Header from './components/Header';
-//import Layout from './components/Layout';
-function App() {
+// import './App.css';
+import { Routes, Route } from "react-router";
+import Homepage from "./pages/Homepage";
+//import { CountryDetail } from "./components/CountryDetails"
 
+function App() {
   return (
-    <>
-      <div>
-         <Header /> 
-        {/* <Layout /> */}
-      </div>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Homepage />}>
+        {/* <Route path="detail/country/:name" element={<CountryDetail />} /> */}
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;

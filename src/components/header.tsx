@@ -1,14 +1,16 @@
-import React from 'react';
-import './css/header.css';
+import { Box, Heading, Image } from '@chakra-ui/react';
 
-type HeaderProps = {
-};
-
-export const Header = ( ) => {
-
+const Header = () => {
   return (
-    <>
-    </>
+    <Box
+      display={"flex"}
+      justifyContent={"space-between"}
+      alignItems={"center"}
+      padding={4}
+    >
+      <Image src="https://www.countryflags.io/be/flat/64.png" alt="Belgium flag" />
+      <Heading as="h1">Country Information</Heading>
+    </Box>
   );
 };
 
