@@ -1,11 +1,12 @@
 import Layout from "../components/Layout";
-
-type HomepageProps = {};
+// type HomepageProps = {};
 
 const Homepage = () => {
+
+
   return (
     <>
-      <Layout />
+      <Layout></Layout>
     </>
   );
 };

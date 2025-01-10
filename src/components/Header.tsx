@@ -1,6 +1,6 @@
 import { Box, Heading } from "@chakra-ui/react";
 
-type HeaderProps = {};
+// type HeaderProps = {};
 
 const Header = () => {
     return (
